@@ -1,0 +1,178 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-1{
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+.container-2{
+    width: 35%;
+    height: 1000%;
+    padding-top:20px ;
+    
+}
+#task{
+    font-weight: bold;
+    font-size: 2.5rem;
+
+}
+#list{
+    font-size: 2.5rem;
+    margin-left:10px;
+    opacity: 0.5;
+    color:blue;
+    font-weight:bold;
+
+}
+.container-3{
+    width: 30%;
+    height: 100%;
+    padding-top:20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#addlist{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 30px;
+    opacity: 0.5;
+    padding-top:20px ;
+}
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left:0;
+    margin-top:5%;
+} 
+.card2{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    margin-left:0;
+    margin-top: 30px;
+    margin-bottom: 20%;
+} 
+.card1{
+    margin-top: 10px;
+    border: 1.5px solid gray;
+    height: 45vh;
+    width: 25%;
+    position: relative;
+    border-radius: 8px;
+   
+    margin: auto;
+}
+.div1{
+position: absolute;
+top: 60px;
+right: 0;
+font-size: 25px;
+width: 85%;
+text-align: left;
+height: 15%;
+color: blue;
+border-bottom: 1px solid lightgray;
+}
+.div2{
+    width: 95%;
+    height: 10%;
+    font-size: 20px;
+    color: gray;
+    opacity:0.5;
+    text-align: left;
+    position: absolute;
+    top: 35%;
+    font-weight:bold;
+    text-decoration: line-through;
+   }
+.div3{
+    width: 90%;
+    height: 10%;
+    font-size: 25px;
+    color: black;
+    text-align: left;
+    position: absolute;
+    top: 52%;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+}
+.notshow{
+    filter:blur(6px);
+    -webkit-filter: blur(6px);
+}
+.pop-up{
+    position:absolute ;
+    left: 37%;
+    top: 30%;
+    height:25vh;
+    width: 27%;
+    border: 1.5px solid blue;
+    border-radius: 10px;
+    color: blue;
+    font-size: 20px;
+    
+    background-color: white;
+    padding: 20px;
+}
+.add-new{
+    opacity: 0.75;
+    font-size: 17px;
+    
+}
+.pop-upbar{
+    margin-top: 20px;
+    border-radius: 8px;
+    width: 85%;
+    height: 25%;
+    border: 1.5px solid blue;
+    
+    font-size: 16px;
+
+}
+.pop-up-button{
+    width: 25%;
+    height: 20%;
+    margin-top: 18px;
+    color: white;
+    background-color: blue;
+    border: none;
+    position: absolute;
+    left: 300px;
+
+
+}
+#circle{
+    margin-top: 50px;
+    margin-left: 30%;
+    position: absolute;
+    top: 50px;
+    left:110px;
+    font-size: 10px;
+    font-weight: 200;
+}
+.container-4{
+    margin-top: 25px;
+    margin-left:25px ;
+    width: 30%;
+    height: 100%;
+    padding-top:20px;
+    position: absolute;
+    ;
+    right:390px
+   
+}
